@@ -1,0 +1,12 @@
+header{
+  .logo {
+    text-align: center;
+    color: $color-red;
+    fill: currentColor;
+    display: block;
+    svg{
+      width: 300px !important;
+      height: 300px !important;
+    }
+  }
+}
