@@ -14,7 +14,7 @@ module.exports = {
     resolve: {
         root: srcPath,
         extensions: ['', '.js'],
-        modulesDirectories: ['node_modules', 'src']
+        modulesDirectories: ['bower_components', 'node_modules', 'src']
     },
     output: {
         path: path.join(__dirname, 'tmp'),
